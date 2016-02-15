@@ -13,8 +13,8 @@ Jbake-uno a minimal, responsive theme for Jbake based on the
 * Liens sociaux
 * Pages pour les tags
 * Categories listing page
-* ~~Google Analytics~~
-* ~~Commentaire Disqus~~
+* Google Analytics
+* Commentaire Disqus
 
 ### Installer et Tester
 
