@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html>
 <#include "head.ftl">
 <body>
 <#include "header.ftl">

@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html>
 <#include "head.ftl">
 <body>
 <#include "header.ftl">
@@ -15,10 +13,9 @@
         				${post.title}
     					</a>
     					</h2>
-    					<p class="excerpt">
+    					<div class="excerpt">
     					${post.body}
-    					</p>
-
+    					</div>
     				</#if>
     
 					<hr class="post-list__divider">
