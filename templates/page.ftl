@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html>
 <#include "head.ftl">
 <body>
 <#include "header.ftl">
@@ -8,7 +6,7 @@
 	  <article class="post-container post-container--single">
 	    <header class="post-header">
 	      <div class="post-meta">
-	        <time datetime="${content.date?string("dd MMMM yyyy")}" class="post-meta__date date">${content.date?string("dd MMMM yyyy")}</time> &#8226; 
+	        <time datetime="${content.date?string("yyyy-MM-dd")}" class="post-meta__date date">${content.date?string("dd MMMM yyyy")}</time> &#8226; 
 
 		  <#if content.tags??>
 	  	  <span class="post-meta__tags">tags 
