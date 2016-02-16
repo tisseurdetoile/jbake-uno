@@ -24,6 +24,9 @@ Jbake-uno a minimal, responsive theme for Jbake based on the
 4. Démarrer le serveru jbake : `jbake -s`
 5. Lancer votre navigateur vers cette url : `http://localhost:8820/`
 
+### Demonstration
+Une démonstration est disponnible [ici](http://www.tisseurdetoile.net/jbake-uno/)
+
 ### Copyright and license
 
 It is under [the MIT license](/LICENSE).
