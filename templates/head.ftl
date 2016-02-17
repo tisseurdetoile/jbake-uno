@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="${config.site_description}">
     <meta name="author" content="${config.site_author}">
+	<link href="${config.site_baseurl}feed.xml" rel="alternate" type="application/rss+xml" title="Les derniers billets" />
     <meta name="keywords" content="">
     <meta name="generator" content="JBake">
 
