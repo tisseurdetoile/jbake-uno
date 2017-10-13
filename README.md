@@ -1,3 +1,5 @@
+[![Build Status](https://www.travis-ci.org/tisseurdetoile/jbake-uno.svg?branch=master)](https://www.travis-ci.org/tisseurdetoile/jbake-uno)
+
 # Jbake-uno thème
 -------
 
