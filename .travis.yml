@@ -1,0 +1,25 @@
+os: linux
+variables:
+JBAKE_VERSION: 2.5.1
+addons:
+  apt:
+    packages:
+    - lftp
+sudo: false
+jdk:	
+- openjdk7
+branches:
+  only:
+    - master
+before_install:
+- curl -s get.sdkman.io | bash
+- source "$HOME/.sdkman/bin/sdkman-init.sh"
+- echo sdkman_auto_answer=true > ~/.sdkman/etc/config
+- source "/home/travis/.sdkman/bin/sdkman-init.sh"
+- sdk install jbake $JBAKE_VERSION < /dev/null
+- sdk use jbake $JBAKE_VERSION
+script: scripts/travis_build
+notifications:
+  email:
+    on_success: change # default: change
+    on_failure: always # default: always

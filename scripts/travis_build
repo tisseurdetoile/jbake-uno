@@ -1,0 +1,14 @@
+#!/bin/bash
+abort() {
+    local message=$1
+    echo $message
+    exit -1
+}
+
+jbake -b . ./docs
+
+
+[ -z $PASS ] && abort "PASS is undefined"
+[ -z $USER ] && abort "USER is undefined"
+[ -z $HOST ] && abort "HOST is undefined"
+lftp -c "set ftp:ssl-allow no; open ftp://$USER:$PASS@$HOST:21; mirror -eRv ./docs ~/httpdocs; quit;"
