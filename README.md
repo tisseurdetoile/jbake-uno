@@ -24,7 +24,7 @@ Jbake-uno est un thème minimal, responsive pour Jbake il est basé sur [Jekyll-
 5. Lancer votre navigateur vers cette url : `http://localhost:8820/`
 
 ### Demonstration
-Une démonstration est disponnible [ici](http://www.tisseurdetoile.net/jbake-uno/)
+Une démonstration est disponnible [ici](http://jbakeunodemo.ouvaton.org/)
 
 ### Copyright and license
 
@@ -65,7 +65,7 @@ Jbake-uno a minimal, responsive theme for Jbake based on the
 
 ### Demo and Download
 
-[Demo](http://www.tisseurdetoile.net/jbake-uno/)
+[Demo](http://jbakeunodemo.ouvaton.org/)
 
 ---
 
