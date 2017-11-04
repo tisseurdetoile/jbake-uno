@@ -109,6 +109,16 @@
             </a>
 			</li>
 			</#if>
+
+		  	<!-- sharali -->
+		  	<#if (config.share_shaarli)??>
+			<li class="navigation__item">
+			<a href="${config.share_shaarli}" title="my links" target="_blank">
+              <i class="icon icon-link"></i>
+              <span class="label">links</span>
+            </a>
+			</li>
+			</#if>
           
             </ul>
           </nav>
