@@ -66,6 +66,16 @@
 			</li>
 			</#if>
 
+		  	<!-- instagram -->
+		  	<#if (config.share_instagram)??>
+			<li class="navigation__item">
+			<a href="https://www.instagram.com/${config.share_instagram}" title="${config.share_instagram} on instagram" target="_blank">
+              <i class="icon icon-social-instagram"></i>
+              <span class="label">instagram</span>
+            </a>
+			</li>
+			</#if>
+
 		  	<!-- GarminConnect -->	
 		  	<#if (config.share_garmin)??>
 			<li class="navigation__item">
