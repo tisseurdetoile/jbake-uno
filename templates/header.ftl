@@ -10,7 +10,11 @@
     <div class="panel-main__content">
 		
         <a href="${config.site_baseurl}" title="link to home of ${config.site_title}">
-          <img src="${config.site_baseurl}images/profile.jpg" class="user-image" alt="My Profile Photo">
+        <#if (config.site_profilepic)??>
+           <img src="${config.site_baseurl}images/${config.site_profilepic}" class="user-image" alt="My Profile Photo">
+        <#else>
+           <img src="${config.site_baseurl}images/profile.jpg" class="user-image" alt="My Profile Photo">
+        </#if>
           <h1 class="panel-cover__title panel-title">${config.site_title}</h1>
         </a>
         <hr class="panel-cover__divider">
