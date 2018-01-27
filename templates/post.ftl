@@ -1,5 +1,9 @@
 <#include "head.ftl">
-<body>
+<#if content.tags??>
+   <body id="${content.tags[0]}">
+<#else>
+   <body>
+</#if>
 <#include "header.ftl">
 	<div class="content-wrapper">
 		<div class="content-wrapper__inner">
