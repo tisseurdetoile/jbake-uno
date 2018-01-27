@@ -1,0 +1,1 @@
+var indx = [<#list published_content as content>{ "url":"${config.site_host}/${content.uri}","date":"${content.date?string("yyyy-MM-dd")}",<#if content.tags??>"tags":[<#list content.tags as tag>"${tag}"<#sep>,</#list>],</#if>"title":"${content.title}"}<#sep>,</#list>];
