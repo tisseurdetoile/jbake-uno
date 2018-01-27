@@ -10,7 +10,7 @@
     <meta name="keywords" content="">
     <meta name="generator" content="JBake">
 
-    <!-- Le styles -->
+    <#-- Le styles -->
     <link href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>css/main.css" rel="stylesheet" />
 	<link rel="manifest" href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>images/favicons/manifest.json"/>
   
