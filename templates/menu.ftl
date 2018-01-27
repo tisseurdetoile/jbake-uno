@@ -1,4 +1,4 @@
-	<!-- Fixed navbar -->
+	<#-- Fixed navbar -->
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -28,7 +28,7 @@
               </ul>
             </li>
           </ul>
-        </div><!--/.nav-collapse -->
+        </div><#--/.nav-collapse -->
       </div>
     </div>
     <div class="container">

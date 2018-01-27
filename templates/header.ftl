@@ -33,7 +33,7 @@
             <ul class="navigation">
           
 		  
-		  	<!-- twitter -->
+		  	<#-- twitter -->
 		  	<#if (config.share_twitter)??>
 			<li class="navigation__item">
 			<a href="http://twitter.com/${config.share_twitter}" title="${config.share_twitter} on Twitter" target="_blank">
@@ -43,14 +43,14 @@
 			</li>
 			</#if>
 		  
-		  	<!-- LinkedIn -->
+		  	<#-- LinkedIn -->
 		  	<#if (config.share_linkedin)??>
 				<li class="navigation__item">
 					<a href="https://www.linkedin.com/in/${config.share_linkedin}" title="${config.share_linkedin} on LinkedIn" target="_blank"><i class="icon icon-social-linkedin"></i><span class="label">LinkedIn</span></a>
 				</li>
 			</#if>
 		  
-		  	<!-- gitHub -->
+		  	<#-- gitHub -->
 		  	<#if (config.share_github)??>
 			<li class="navigation__item">
 			<a href="https://www.github.com/${config.share_github}" title="${config.share_github} on gitHub" target="_blank">
@@ -60,7 +60,7 @@
 			</li>
 			</#if>
 
-		  	<!-- flickr -->
+		  	<#-- flickr -->
 		  	<#if (config.share_flickr)??>
 			<li class="navigation__item">
 			<a href="https://www.flickr.com/photos/${config.share_flickr}" title="${config.share_flickr} on flickr" target="_blank">
@@ -70,7 +70,7 @@
 			</li>
 			</#if>
 
-		  	<!-- instagram -->
+		  	<#-- instagram -->
 		  	<#if (config.share_instagram)??>
 			<li class="navigation__item">
 			<a href="https://www.instagram.com/${config.share_instagram}" title="${config.share_instagram} on instagram" target="_blank">
@@ -80,7 +80,7 @@
 			</li>
 			</#if>
 
-		  	<!-- GarminConnect -->	
+		  	<#-- GarminConnect -->	
 		  	<#if (config.share_garmin)??>
 			<li class="navigation__item">
 			<a href="https://connect.garmin.com/profile/${config.share_garmin}" title="${config.share_garmin} on garmin" target="_blank">
@@ -90,7 +90,7 @@
 			</li>
 			</#if>
 
-		  	<!-- RSS -->
+		  	<#-- RSS -->
 		  	<#if (config.share_github)??>
 			<li class="navigation__item">
 			<a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>${config.share_rss}" title="Subscribe" target="_blank">
@@ -100,7 +100,7 @@
 			</li>
 			</#if>
 
-		  	<!-- email -->
+		  	<#-- email -->
 		  	<#if (config.share_email)??>
 			<li class="navigation__item">
 			<a href="mailto:${config.share_email}" title="${config.share_email} on gitHub" target="_blank">
@@ -110,7 +110,7 @@
 			</li>
 			</#if>
 
-		  	<!-- sharali -->
+		  	<#-- shaarli -->
 		  	<#if (config.share_shaarli)??>
 			<li class="navigation__item">
 			<a href="${config.share_shaarli}" title="my links" target="_blank">
