@@ -1,7 +1,7 @@
 title=Third Post
 date=2013-09-26
 type=post
-tags=blog, asciidoc
+tags=blog, asciidoc, bike
 status=published
 ~~~~~~
 = Third Post
