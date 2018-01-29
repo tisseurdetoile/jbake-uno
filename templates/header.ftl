@@ -3,7 +3,7 @@
   <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
 </span>
   
-<header class="panel-cover" style="background-image: url(${config.site_baseurl}images/cover.jpg)">
+<header class="panel-cover">
   <div class="panel-main">
 
     <div class="panel-main__inner panel-inverted">

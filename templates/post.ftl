@@ -1,6 +1,6 @@
 <#include "head.ftl">
-<#if content.tags??>
-   <body id="${content.tags[0]}">
+<#if content.bodyid??>
+   <body id="${content.bodyid}">
 <#else>
    <body>
 </#if>
