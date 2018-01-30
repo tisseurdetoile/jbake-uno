@@ -4,5 +4,7 @@
 <script type="text/javascript" src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>js/jquery.min.js"></script>
 <#-- base url -->
 <script type="text/javascript" src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>js/main.js"></script>
+<#-- readingTime -->
+<script type="text/javascript" src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>js/readingTime.js"></script>
 <#-- google analitics -->
 <#include "ga.ftl">

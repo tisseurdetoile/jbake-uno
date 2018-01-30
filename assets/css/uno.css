@@ -1047,16 +1047,19 @@ pre {
 .date,
 .time,
 .author,
+.eta,
 .tags {
 	font-size: .8em;
 	color: #c7c7c7; }
 	.date a,
 	.time a,
 	.author a,
+	.eta a,
 	.tags a {
 		color: #666666; }
 		.date a:hover,
 		.time a:hover,
+        .eta a:hover,
 		.author a:hover,
 		.tags a:hover {
 			color: #b9301c; }
@@ -1152,10 +1155,15 @@ hr {
 	color: #c7c7c7; }
 
 .post-meta__date {
-	margin-right: .5em; }
+	margin-right: .5em;
+}
+
+post-meta__eta {
+    margin-right: .5em;
+}
 
 .post-meta__tags {
-	margin-left: .4em; }
+	margin-left: .5em; }
 
 .post-meta__author {
 	margin-left: 1.5em; }
