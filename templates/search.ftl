@@ -2,6 +2,37 @@
 <script src="/searchidx.js"></script>
 <script>
     /**
+     * Text for javascript
+     */
+
+    var searchInfo = "took : {time} ms";
+    var searchresult = "<li><a href='{url}'>{title}</a> - (Score: {score}) - </li>";
+    var noresult = "No results found";
+
+    /**
+     * copy paste from SO
+     * https://stackoverflow.com/questions/610406/javascript-equivalent-to-printf-string-format
+     */
+    String.prototype.formatUnicorn = String.prototype.formatUnicorn ||
+            function () {
+                "use strict";
+                var str = this.toString();
+                if (arguments.length) {
+                    var t = typeof arguments[0];
+                    var key;
+                    var args = ("string" === t || "number" === t) ?
+                            Array.prototype.slice.call(arguments)
+                            : arguments[0];
+
+                    for (key in args) {
+                        str = str.replace(new RegExp("\\{" + key + "\\}", "gi"), args[key]);
+                    }
+                }
+
+                return str;
+            };
+
+    /**
      * Normalize text
      * remove accent and other disturbing stuff
      * remove unneeded spaces
@@ -114,6 +145,7 @@
             </section>
         </article>
     </div>
+
 		<#include "footer.ftl">
     <script type="text/javascript">
         $(document).ready(function () {
@@ -125,12 +157,12 @@
                 var elasped = Math.round(performance.now() - t0);
 
                 $('#result').empty();
-                $('#result').text('took :' + elasped  + ' ms');
+                $('#result').text(searchInfo.formatUnicorn({time: elasped}));
                 if (res == null) {
-                    $('#result').append('No results found');
+                    $('#result').append(noresult);
                 } else {
                     $.each(res, function (i, f) {
-                        $('#result').append('<li><a href="' + f.url + '">' + f.title + '</a> - Score:' + f.score + ' - </li>');
+                        $('#result').append(searchresult.formatUnicorn({url: f.url, title: f.title, score: f.score}));
                     });
                 }
 
