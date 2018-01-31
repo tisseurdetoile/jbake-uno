@@ -1215,14 +1215,15 @@ hr {
 	max-width: none;
 	height: 100%;
 	background: url(/images/cover.jpg) top left no-repeat #666666;
-	background-size: cover; }
-
-body#niort .panel-cover {
-    background: url(/images/niort.jpg) top left no-repeat #666666;
+	background-size: cover;
 }
 
-body#angouleme .panel-cover {
-    background: url(/images/angouleme.jpg) top left no-repeat #666666;
+body#blue .panel-cover {
+    background: url(/images/cover_blue.jpg) top left no-repeat #666666;
+}
+
+body#green .panel-cover {
+    background: url(/images/cover_green.jpg) top left no-repeat #666666;
 }
 
 
