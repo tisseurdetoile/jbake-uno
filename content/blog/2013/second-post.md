@@ -2,7 +2,7 @@ title=Second Post
 date=2013-08-25
 type=post
 tags=blog
-bodyid=angouleme
+bodyid=green
 status=published
 ~~~~~~
 
