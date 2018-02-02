@@ -1047,16 +1047,19 @@ pre {
 .date,
 .time,
 .author,
+.eta,
 .tags {
 	font-size: .8em;
 	color: #c7c7c7; }
 	.date a,
 	.time a,
 	.author a,
+	.eta a,
 	.tags a {
 		color: #666666; }
 		.date a:hover,
 		.time a:hover,
+        .eta a:hover,
 		.author a:hover,
 		.tags a:hover {
 			color: #b9301c; }
@@ -1152,13 +1155,24 @@ hr {
 	color: #c7c7c7; }
 
 .post-meta__date {
-	margin-right: .5em; }
+	margin-left: 1.5em;
+}
+
+post-meta__eta {
+    margin-left: 1.5em;
+}
 
 .post-meta__tags {
-	margin-left: .4em; }
+	margin-left: 1.5em;
+}
 
 .post-meta__author {
-	margin-left: 1.5em; }
+	margin-left: 1.5em;
+}
+
+.post-meta__eta {
+	margin-left: 1.5em;
+}
 
 .post-meta__avatar {
 	display: inline-block;
@@ -1215,14 +1229,15 @@ hr {
 	max-width: none;
 	height: 100%;
 	background: url(/images/cover.jpg) top left no-repeat #666666;
-	background-size: cover; }
-
-body#niort .panel-cover {
-    background: url(/images/niort.jpg) top left no-repeat #666666;
+	background-size: cover;
 }
 
-body#angouleme .panel-cover {
-    background: url(/images/angouleme.jpg) top left no-repeat #666666;
+body#blue .panel-cover {
+    background: url(/images/cover_blue.jpg) top left no-repeat #666666;
+}
+
+body#green .panel-cover {
+    background: url(/images/cover_green.jpg) top left no-repeat #666666;
 }
 
 
