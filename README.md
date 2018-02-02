@@ -16,6 +16,7 @@ Jbake-uno est un thème minimal, responsive pour Jbake il est basé sur [Jekyll-
 * Categories listing page
 * Google Analytics
 * Commentaire Disqus
+* TravisCI Integration Continue [voir ici](http://www.tisseurdetoile.net/blog/2017/2017-11-03-jbake_git_travis.html)
 
 ### Installer et Tester
 
@@ -52,6 +53,7 @@ Jbake-uno a minimal, responsive theme for Jbake based on the
 * Categories listing page
 * Google Analytics integration
 * Disqus integration
+* TravisCI Continuous Integration
 
 ---
 
