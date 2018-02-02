@@ -10,18 +10,31 @@
 			<article class="post-container post-container--single">
 				<header class="post-header">
 				<div class="post-meta">
-					<time datetime="${content.date?string("yyyy-MM-dd")}" class="post-meta__date date">${content.date?string("dd MMMM yyyy")}</time> &#8226; 
+					<span class="post-meta__date date icon icon-calendar"> ${content.date?string("dd MMMM yyyy")}</span><br />
+                    <span class="post-meta__author author icon icon-pencil">
+					<#if (content.author)??>
+						${content.author}
+					<#else>
+						${config.site_author}
+					</#if>
+					</span>
+                    <br/>
 
+					<#if ((config.site_includeReadTime!'true')?boolean == true)><span class="post-meta__eta eta icon icon-clock"></span><br /></#if>
 					<#if content.tags??>
-						<span class="post-meta__tags">tags 
+						<span class="post-meta__tags">
 						<#list content.tags as tag>
-						<a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>tags/${tag}.html">${tag}</a>
+						<a class="icon icon-price-tag" href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>tags/${tag}.html"> ${tag}</a>
+						<#sep>&nbsp;-&nbsp;
 						</#list>
 						</span>
+                        <br />
 					</#if>
+
     			</div>
     			<h1 class="post-title"><#escape x as x?xml>${content.title}</#escape></h1>
-  			  	</header>
+
+				</header>
 
 				<section class="post">
 				${content.body}
