@@ -1155,18 +1155,24 @@ hr {
 	color: #c7c7c7; }
 
 .post-meta__date {
-	margin-right: .5em;
+	margin-left: 1.5em;
 }
 
 post-meta__eta {
-    margin-right: .5em;
+    margin-left: 1.5em;
 }
 
 .post-meta__tags {
-	margin-left: .5em; }
+	margin-left: 1.5em;
+}
 
 .post-meta__author {
-	margin-left: 1.5em; }
+	margin-left: 1.5em;
+}
+
+.post-meta__eta {
+	margin-left: 1.5em;
+}
 
 .post-meta__avatar {
 	display: inline-block;
