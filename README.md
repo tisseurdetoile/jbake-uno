@@ -1,6 +1,5 @@
-[![Build Status](https://www.travis-ci.org/tisseurdetoile/jbake-uno.svg?branch=master)](https://www.travis-ci.org/tisseurdetoile/jbake-uno)
+[![Build Status](https://www.travis-ci.org/tisseurdetoile/jbake-uno.svg?branch=master)](https://www.travis-ci.org/tisseurdetoile/jbake-uno) [![Keybase Team](https://img.shields.io/badge/chat-on%20keybase-green.svg?longCache=true&style=flat)](https://keybase.io/team/jbake_uno)
 
-[KeybaseTeam](https://keybase.io/team/jbake_uno)
 
 # Jbake-uno thème
 -------
